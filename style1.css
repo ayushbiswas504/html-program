@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+.header {
+    border: 2px solid black;
+    padding: 4px;
+    font-weight: bold;
+    background-color: yellowgreen;
+}
+.sidebar {
+    float: left;
+    border: 2px solid black;
+    width: 200px;
+    padding: 40px;
+    font-weight: bold;
+    background-color: lightblue;
+}
+.content {
+    width: 100%;
+    border: 2px solid black;
+    padding: 40px;
+    font-weight: bold;
+    background-color: pink;
+}
+.footer{
+border: 2px solid black;
+padding: 40px;
+background-color:blueviolet
+}

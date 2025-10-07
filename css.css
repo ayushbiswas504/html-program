@@ -1,0 +1,23 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+    text-decoration: underline;
+    
+}
+
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    text-indent: 150px;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+}

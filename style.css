@@ -1,0 +1,42 @@
+
+
+button{
+    color: brown;
+}
+
+#headingone {
+    color:yellow;
+}
+
+#headingtwo{
+    color: chocolate;
+}
+.myclass{
+    color: magenta;
+}
+button{
+    background-color: rgb(255, 81, 0);
+}
+table{
+    background-color:brown;
+}
+p{
+    text-align: right;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+    text-decoration: aqua wavy overline;
+}
+blockquote{
+
+    text-align:right;
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+}

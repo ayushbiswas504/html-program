@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Forms</title>
+</head>
+<body>
+    <h1>Forms in Html</h1>
+    <form action="/submit.php">
+        <!--Text input for name-->
+        <div>
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Enter name" required>
+        </div>
+        <!--Phone input-->
+        <div>
+            <label for="phone">Phone</label>
+            <input id="phone" type="tel" placeholder="Enter Phone" required>
+        </div>
+        <!--Email input-->
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter email" required>
+        </div>
+        <!--Password input-->
+        <div>
+            <label for="--Password">Phone</label>
+            <input id="--Password" type="password" placeholder="Enter --Password">
+        </div>
+        Dob : <input type="date" name="dt" required><br>
+photo : <input type="file" name="fl"><br><br>
+Gender : <input type="radio" name="g1">Female
+<input type="radio" name="g1">Male
+<br>
+Hobbies:
+<input id="Swimming"  type="radio" name="hobbies">
+<label for="Swimming">Swimming</label>
+
+<input id="Dancing" type="radio" name="hobbies">
+<label for="Dancing">Dancing</label>
+
+<input id="Singing" type="radio" name="hobbies">
+<label for="Singing">Singing</label>
+
+<input id="Chatting" type="radio" name="hobbies">
+<label for="Chatting">Chatting</label>
+<!--checkbox for agreeing to terms-->
+<input id="terms" type="checkbox" required>
+<label for="terms">I agree to the terms and conditions </label>
+<!--textarea for comments-->
+<input id="comments" type="comments" required>
+<textarea id="comments" placeholder="Enter your comments" rows="4"></textarea>
+
+        <button>
+            <select type="submit">
+        </button>
+    </form>
+</body>
+</html>
